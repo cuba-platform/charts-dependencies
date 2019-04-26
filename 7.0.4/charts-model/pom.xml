@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.haulmont.charts</groupId>
 	<artifactId>charts-model</artifactId>
-	<version>7.0-SNAPSHOT</version>
+	<version>7.0.4</version>
 	<dependencies>
 		<dependency>
 			<groupId>org.codehaus.plexus</groupId>
@@ -11,28 +11,8 @@
 			<version>3.0.24</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jsoup</groupId>
-			<artifactId>jsoup</artifactId>
-			<version>1.7.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-collections4</artifactId>
-			<version>4.2</version>
-		</dependency>
-		<dependency>
 			<groupId>org.apache.maven.wagon</groupId>
 			<artifactId>wagon-provider-api</artifactId>
-			<version>2.12</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.maven.wagon</groupId>
-			<artifactId>wagon-http-shared</artifactId>
 			<version>2.12</version>
 		</dependency>
 		<dependency>
@@ -41,9 +21,49 @@
 			<version>3.0.2</version>
 		</dependency>
 		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.7.2</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.maven.wagon</groupId>
-			<artifactId>wagon-http</artifactId>
+			<artifactId>wagon-http-shared</artifactId>
 			<version>2.12</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>4.4.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>1.7.22</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.7</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -56,29 +76,9 @@
 			<version>2.8.5</version>
 		</dependency>
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>jcl-over-slf4j</artifactId>
-			<version>1.7.22</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-codec</groupId>
-			<artifactId>commons-codec</artifactId>
-			<version>1.9</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpcore</artifactId>
-			<version>4.4.4</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.5</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.7</version>
+			<groupId>org.apache.maven.wagon</groupId>
+			<artifactId>wagon-http</artifactId>
+			<version>2.12</version>
 		</dependency>
 	</dependencies>
 </project>
